@@ -1,0 +1,154 @@
+/* ==UserStyle==
+@name           UniFi Console Improved Contrast
+@namespace      github.com/openstyles/stylus
+@version        1.0.0
+@description    A new userstyle
+@author         EXP_LAB
+==/UserStyle== */
+
+@-moz-document url-prefix("https://unifi.ui.com/") {
+	
+	/* Header */
+	
+	header.unifi-portal-1k0d0e9 {
+		background: #000 !important;
+		border-bottom: 1px solid #333;
+	}
+	
+	.unifi-portal-87hkk0 {
+		background-color: #0a0a0a;
+		border: 1px solid #333;
+		border-radius: 5px 5px 0 0;
+		margin: 5px 0 0 5px;
+	}
+	
+	.unifi-portal-87hkk0 {
+		height: 45px;
+	}
+	
+	.unifi-portal-87hkk0[aria-current="page"] {
+		border-bottom: none;
+	}
+	
+	/* Title */
+	
+	.unifi-portal-1wzb349 {
+		background-color: #131416;
+		max-width: 400px;
+		letter-spacing: 0.5px;
+		box-shadow: 2px 2px 2px #000;
+	}
+	
+	.unifi-portal-1wzb349:hover {
+		-webkit-text-stroke: 1px #acb0b3;
+		animation: 3s ease 1s running;
+	}
+	
+	.unifi-portal-1t7fm0t {
+		font-size: 16px;
+		font-weight: bold;
+		animation: 3s ease-in-out running;
+		padding-left: 10px;
+	}
+	
+	.unifi-portal-1t7fm0t:hover {
+		padding-bottom: 5px;
+		border-bottom: 1px solid #666;
+		margin-bottom: -5px;
+	}
+    
+	/* Left Sidebar */
+	
+	.unifi-portal-on9wkt nav[class*="nav-horizontal__"][class*="nav-auto__"], .unifi-portal-on9wkt nav[class*="nav-vertical__"][class*="nav-auto__"], .unifi-portal-on9wkt nav[class*="nav-auto__"][class*="nav-auto__"] {
+    	padding: 8px 0px 12px;
+    	width: 60px;
+  	}
+	
+	.nav__ZljDoyET {
+		background-color: #000 !important;
+		border-right: 1px solid #666;
+	}
+	
+	.unifi-portal-on9wkt nav[class*="nav-horizontal__"] ul, .unifi-portal-on9wkt nav[class*="nav-vertical__"] ul, .unifi-portal-on9wkt nav[class*="nav-auto__"] ul {
+		background-color: #000;
+	}
+	
+	.item__rHEvxowz a {
+		background-color: #131416;
+	}
+	
+	/* Main */
+	
+	/* Modules */
+	.css-network-1a96cto {
+		background-color: #111 !important;
+		border: 1px solid #40454f;
+	}
+	
+	/* Buttons */
+	
+	.css-network-jfdekc, .css-network-10ui89v, .css-network-1qswaan, .tabs__nBdbJVQs, .container__sp6ULpnh, .tertiary-dark__VCR3r9bC, .css-network-1wnh7u7 {
+		border: 1px solid #333;
+		border-radius: 5px;
+		background-color: #0a0a0a;
+	}
+	
+	.tabs-capsule-dark__nBdbJVQs {
+		border: 1px solid #555;
+	}
+	
+	/* Pages */
+	
+	.css-network-nebcsi, .css-network-1b25od, .css-network-1rasne2, .css-4ps6g8, .css-network-11l1rmk, .css-network-aoknj2, .css-network-y8gyd3, .css-network-1jdltxz, .css-network-1j58hyh, .css-network-15ozao6, .container-dark__phabuqkJ, .unifi-portal-kb0n66, .unifi-portal-1w4h82z, .unifi-portal-1sxgj47, .style_admins-content__ACRIf {
+		background-color: #111;
+		border-radius: 10px;
+		border: 1px solid #555;
+	}
+	
+	.css-network-1ew34n5 span {
+		font-weight: bold !important;
+	}
+	
+	.css-network-1frswv {
+		margin-bottom: 10px;
+		background-color: #0a0a0a;
+		border-radius: 10px;
+		border: 1px solid #555;
+	}
+	
+	/* Settings */
+	
+	.css-network-167lpeg {
+		background-color: #111;
+		border-radius: 10px;
+		border: 1px solid #555;
+		margin: 15px 0 0 15px;
+		height: 550px;
+	}
+	
+	/* Right Sidebar */
+	
+	.container-right-dark {
+		border-left: 1px solid #666;
+	}
+	
+	/* Drive */
+	
+	.ewDnmQ {
+		background-color: #0a0a0a;
+		border-radius: 10px;
+	}
+	
+	.jAXjnQ {
+		border: 1px solid #666;
+		border-radius: 10px;
+		background-color: #33373d
+	}
+	
+	.jiDnBx {
+		border: 1px solid #33373d;
+		padding: 5px 10px 0;
+		border-radius: 10px;
+	}
+	
+}
