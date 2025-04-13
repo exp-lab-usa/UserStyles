@@ -1,9 +1,9 @@
 /* ==UserStyle==
-@name           UniFi Console Improved Contrast
-@namespace      github.com/openstyles/stylus
-@version        1.0.0
-@description    A new userstyle
-@author         EXP_LAB
+@name           UniFi Console Better Dark Mode
+@namespace      github.com/exp-lab-usa/UserStyles
+@version        0.8b
+@description    Better Dark Mode
+@author         @exp-lab-usa
 ==/UserStyle== */
 
 @-moz-document url-prefix("https://unifi.ui.com/") {
